@@ -21,7 +21,7 @@ i {
   background: #fff;
   padding: 30px;
   margin-bottom: 70px;
-  border-bottom: 5px solid #000;
+  border-bottom: 5px solid #333;
 }
 
 .jumbotron h1 {
@@ -57,9 +57,9 @@ i {
 
 .text-entry {
   background: transparent;
-  padding: 20px 10px;
-  color: #000;
-  border: 1px solid #333;
+  padding: 20px;
+  color: #333;
+  border: 1px solid #fff;
   overflow: hidden;
   resize: none;
   outline: none;
@@ -71,17 +71,17 @@ i {
 }
 
 .past {
-  background-color: #a7a5a5;
-  color: #fff;
-}
-
-.present {
   background-color: #ffb6c1;
   color: #fff;
 }
 
+.present {
+  background-color: #a7a5a5;
+  color: #fff;
+}
+
 .future {
-  background-color: #adff2f;
+  background-color: #50ec77;
   color: #fff;
 }
 
@@ -112,6 +112,7 @@ screen and (max-width: 575px) {
     text-align: center;
     padding-top: 8px;
   }
+
   .jumbotron h1 {
     font-size: 4rem;
   }
@@ -130,12 +131,13 @@ screen and (max-width: 575px) {
   }
 
 }
-  @media screen and (max-width: 575px) {
-    .jumbotron h1 {
-      font-size: 2.9rem;
-    }
 
-    .jumbotron p {
-      font-size: 1rem;
-    }
+@media screen and (max-width: 575px) {
+  .jumbotron h1 {
+    font-size: 2.9rem;
   }
+
+  .jumbotron p {
+    font-size: 1rem;
+  }
+}
