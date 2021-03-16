@@ -124,12 +124,6 @@ screen and (max-width: 575px) {
   .row {
     margin-bottom: 10px;
   }
-
-  .text-entry {
-    /* border-right: 1px solid #333 !important;
-    border-bottom: 1px solid #333; */
-  }
-
 }
 
 @media screen and (max-width: 575px) {
