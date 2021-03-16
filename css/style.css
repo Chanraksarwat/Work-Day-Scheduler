@@ -67,7 +67,7 @@ i {
 }
 
 .last-text-entry {
-  border-bottom: 1px solid #333;
+  border-bottom: 1px solid #fff;
 }
 
 .past {
@@ -126,8 +126,8 @@ screen and (max-width: 575px) {
   }
 
   .text-entry {
-    border-right: 1px solid #333 !important;
-    border-bottom: 1px solid #333;
+    /* border-right: 1px solid #333 !important;
+    border-bottom: 1px solid #333; */
   }
 
 }
